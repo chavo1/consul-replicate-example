@@ -28,7 +28,7 @@ vagrant up
 
 #### Create an entry in your KV store on a Second DC "https://192.168.57.51:8500" - for example "test" with value "1":
 
-<img src=“consul-replicate-example/pict/kv_test.png” />
+<img src=“/pict/kv_test.png” />
 
 #### From the command line - ssh to the DC1
 ```
