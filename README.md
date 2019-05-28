@@ -1,5 +1,6 @@
 ## This repo contains an example of consul-replicate in multi-dc. 
 
+### More Information [HERE](https://github.com/hashicorp/consul-replicate)
 
 #### The usage is pretty simple
 
