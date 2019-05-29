@@ -31,7 +31,7 @@ vagrant up
 
 <img src="pict/kv_test.png"/>
 
-#### From the command line - ssh to the DC1
+#### From command line - ssh to the DC1
 ```
 $ vagrant ssh consul-dc1-server01
 $ sudo su -
