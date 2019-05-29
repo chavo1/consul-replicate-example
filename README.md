@@ -5,6 +5,7 @@
 #### The usage is pretty simple
 
 - At least 3GB ram
+- Virtualbox should be [installed](https://www.virtualbox.org/)
 - Vagrant should be [installed](https://www.vagrantup.com/)
 - Git should be [installed](https://git-scm.com/)
 
