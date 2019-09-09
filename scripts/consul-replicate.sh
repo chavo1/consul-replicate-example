@@ -4,7 +4,7 @@ CONSUL_REPLICATE=${CONSUL_REPLICATE}
 
 sudo mkdir -p /vagrant/pkg
 
-which envconsul || {
+which consul-replicate || {
     # consul-replicate file exist.
     CHECKFILE="/vagrant/pkg/consul-replicate_${CONSUL_REPLICATE}_linux_amd64.zip"
     if [ ! -f "$CHECKFILE" ]; then
