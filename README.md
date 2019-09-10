@@ -38,7 +38,7 @@ $ vagrant ssh consul-dc1-server01
 $ sudo su -
 $ consul-replicate -log-level trace -prefix "test@dc2"
 ```
-- The last command will start as a system daemon and will replicate "test" entry from DC2 to DC1.
+- The last command will start consul-replicate and will replicate "test" entry from DC2 to DC1.
 - Any additionally added or updated key/value in DC2 will be automatically replicated to DC1
 ```
 2019/09/09 13:54:48.419229 [INFO] (runner) replicated 1 updates, 0 deletes
